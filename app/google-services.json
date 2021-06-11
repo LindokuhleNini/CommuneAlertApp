@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "499378072737",
+    "firebase_url": "https://communealert.firebaseio.com",
+    "project_id": "communealert",
+    "storage_bucket": "communealert.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499378072737:android:af4868ce6c49e2caee94e0",
+        "android_client_info": {
+          "package_name": "com.example.communealertapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499378072737-o1nvv3olmqvkntlcefvvol16ueo12rgk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-pNaun7lgglMBbterOuJV6lO9yVFghp4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "499378072737-o1nvv3olmqvkntlcefvvol16ueo12rgk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

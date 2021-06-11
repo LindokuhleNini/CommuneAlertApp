@@ -1,0 +1,6 @@
+<resources>
+
+    <style name="Theme.CommuneAlertApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.CommuneAlertApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

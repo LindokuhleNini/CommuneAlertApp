@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReportCrime">
+
+    <ImageView
+        android:id="@+id/ivHeader"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-10dp"
+        android:contentDescription="@string/header_background"
+        app:srcCompat="@drawable/top_background"
+        tools:layout_editor_absoluteX="-9dp"
+        tools:layout_editor_absoluteY="-10dp" />
+
+    <TextView
+        android:id="@+id/tvReportCrime"
+        android:layout_width="140dp"
+        android:layout_height="26dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginLeft="78dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginRight="101dp"
+        android:gravity="center"
+        android:text="Report crime"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="202dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="261dp"
+        android:layout_marginBottom="268dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnMissingPerson"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/crimebutton1"
+            android:onClick="openMissingPersonForm"
+            android:text="Missing person" />
+
+        <Button
+            android:id="@+id/btnViolence"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/crimebutton1"
+            android:onClick="openViolenceForm"
+            android:text="Violence / assualt" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="202dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginBottom="303dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnTheft"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/crimebutton1"
+            android:onClick="openTheftForm"
+            android:text="Theft / Robbery" />
+
+        <Button
+            android:id="@+id/btnBreakin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/crimebutton1"
+            android:onClick="openHouseBreakinForm"
+            android:text="House break-in" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="199dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="69dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCarVandalism2"
+            android:layout_width="199dp"
+            android:layout_height="180dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/crimebutton1"
+            android:onClick="openCarTheftForm"
+            android:text="Car vandalism" />
+
+        <Button
+            android:id="@+id/btnCarVandalism"
+            android:layout_width="199dp"
+            android:layout_height="180dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/crimebutton1"
+            android:onClick="openSuspiciousPersonForm"
+            android:text="Suspicious person" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="#DAD8D8"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnGroup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_group"
+            android:onClick="openGroupScreen"
+            android:text="@string/my_groups"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btnCrime"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_report"
+            android:onClick="openReportCrime"
+            android:text="@string/crime"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btnMap"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_map"
+            android:text="@string/map"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btnNotification"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_notifications"
+            android:text="@string/notification"
+            android:textSize="8sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

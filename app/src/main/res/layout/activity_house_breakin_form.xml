@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#03A9F4"
+    android:fillViewport="false"
+    tools:context=".HouseBreakinForm">
+
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/topBackgroup"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="3dp"
+            app:srcCompat="@drawable/top_background" />
+
+        <TextView
+
+            android:id="@+id/tvHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="-40dp"
+            android:text="House break-in"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ivHeaderBackground"
+            android:layout_width="454dp"
+            android:layout_height="217dp"
+            android:layout_marginTop="3dp"
+            app:srcCompat="@drawable/headerbackground" />
+        <TextView
+            android:id="@+id/tvDescription"
+            android:layout_width="378dp"
+            android:layout_height="166dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="-199dp"
+            android:text="House Break-In has become a serious issue in communities as it tends to make individuals feel unsafe within their personal space. If we don't try to minimise this issue soon it will eventually lead to a harmful environment to live in and create diconnected relationships between neighbours"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="680dp"
+            android:layout_marginTop="-70dp"
+            android:layout_marginBottom="-314dp"
+            app:srcCompat="@drawable/loginbackground" />
+
+        <TextView
+            android:id="@+id/tvStreetname"
+            android:layout_width="357dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-250dp"
+            android:text="Address"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+
+        <EditText
+            android:id="@+id/etAddress"
+            android:layout_width="349dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-7dp"
+            android:background="#03A9F4"
+            android:inputType="text"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tvItem"
+            android:layout_width="357dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:text="Lost item(s)"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+
+        <EditText
+            android:id="@+id/etItem"
+            android:layout_width="349dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-7dp"
+            android:background="#03A9F4"
+            android:inputType="text"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tvWeapon"
+            android:layout_width="357dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:text="Any weapon used"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+
+        <EditText
+            android:id="@+id/etWeapon"
+            android:layout_width="349dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-7dp"
+            android:background="#03A9F4"
+            android:inputType="text"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tvDesc"
+            android:layout_width="357dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:text="Description of suspect"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+
+        <EditText
+            android:id="@+id/etDesc"
+            android:layout_width="349dp"
+            android:layout_height="53dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-7dp"
+            android:background="#03A9F4"
+            android:inputType="text"
+            android:textColor="#000000" />
+
+
+        <TextView
+            android:id="@+id/tvContactInfo"
+            android:layout_width="357dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:text="Contact me here if you have any information"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/etContact"
+            android:layout_width="349dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-7dp"
+            android:layout_marginBottom="31dp"
+            android:background="#03A9F4"
+            android:inputType="text"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/btnShare"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-24dp"
+            android:layout_marginBottom="60dp"
+            android:background="#03A9F4"
+            android:text="Share Form" />
+
+
+    </LinearLayout>
+</ScrollView>
